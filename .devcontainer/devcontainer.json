@@ -1,7 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-  },
+"features": {
+    "node": "16"
+},
   "postCreateCommand": "bash ./install-dependencies.sh",
   "forwardPorts": [3000]
 }
