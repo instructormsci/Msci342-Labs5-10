@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -ex
-
 nvm install 16.17.1
 nvm use 16
 
