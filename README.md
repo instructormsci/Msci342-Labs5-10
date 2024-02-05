@@ -1,3 +1,31 @@
+# Use this repository to do lab exercises based on the textbook "Outside-In React Development"
+
+## Important: Cypress doesn't run on Codespaces, so you will need to install this repo on your local machine in order to do exercises that involve Cypress.
+
+## Local installation instructions:
+
+This repo needs Node v.16.17.1.
+
+If you have a different node version on your local machine, install `nvm` as follows:
+
+```
+# Install NVM (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+Then install Node v.16 and set it as default:
+
+```
+nvm install 16.17.1
+nvm alias default 16
+nvm use default
+```
+
+Check what version you have:
+```
+node -v
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
